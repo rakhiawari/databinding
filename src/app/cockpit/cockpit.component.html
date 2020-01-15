@@ -1,0 +1,13 @@
+<h5 class="header-color">Add new Servers or Blueprints!</h5>
+<h3><b>Server Name</b></h3>
+<div>
+    <input type="text" class="form-control" placeholder="Server Name" [(ngModel)]="newServerName">
+</div>
+<h3><b>Server Content</b></h3>
+<div>
+    <input type="text" class="form-control" placeholder="Some content" [(ngModel)]="newServerContent">
+</div>
+<div class="padding-btn ">
+    <button class="btn btn-primary btn-space " (click)="onAddServer() ">Add Server</button>
+    <button class="btn btn-primary btn-space " (click)="onAddBlueprint() ">Add Server Blueprint</button>
+</div>
